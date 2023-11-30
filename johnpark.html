@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="johnpark.css">
+    <script src="johnpark.js"></script>
+    <title>John Park's Website</title>
+</head>
+<body>
+    <header>
+        <h3>hi, my name is..</h3>
+        <h1 class="bolded">John Park 
+            
+        </h1>
+        <div class="contact-info">
+            <span class="personalinfo">parkjohn77 (at) gmail.com | </span>
+            <a href="https://www.linkedin.com/in/jonghoon-park/" id="linkedin">LinkedIn</a> | 
+            <a href="https://github.com/jp0502" id="github">Github</a>
+            <br>
+            <p> Click to download a copy of my resume! </p>
+                <a href = "john_resume_1.pdf"
+                Download = "johnpark_resume">
+                    <button type = "button"> Download </button>
+                </a>
+        </div>
+    </header>
+
+    <section class = "about-me">
+
+        <h2>ABOUT ME </h2>
+        <hr class="section-divider">
+
+        <p>
+            Hi, my name is John (sometimes I go by Jonghoon), and I'm a 4th year Applied Mathematics and Economics student at York University. I love Mathematical Finance and Data Science!
+        </p>
+
+        <p>
+            I am most experienced in implementing machine learning models and data analysis methods, and my go-to tool of choices are Python, mySQL and MATLAB. I also dabble in Java.
+        </p>
+    </section>
+
+    <section class="education">
+        <h2><b>EDUCATION</b></h2>
+        <hr class="section-divider">
+
+        <div class="education-entry">
+            <div class="school-info">
+                <span class="university"><b>York University | Toronto, Canada</b></span>
+            </div>
+            <div class="program-info">
+                <span class="dates"><i>Jan 2019 – Dec 2023</i></span>
+
+                <br><span class="degree">Double Honours Bachelor of Arts in Applied Mathematics and Economics</span>
+            </div>
+            <div>
+                <span class="coursework"><b>Courses:</b> Advanced OOP, Data Structures, Financial Mathematics, Mathematical Modelling, Stochastic Processes, Regression Analysis, Ordinary & Partial Differential Equations, Econometrics</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-exp">
+        <h2>WORK EXPERIENCE</h2>
+        <hr class="section-divider">
+        <div class="section-entry">
+            <div class = "section-subtitle">
+                <span class = "degree"><b>yuHacks 2022 Hackathon - Team Lead | York University </b></span>
+                <br><span class = "dates"><i>Feb 2022</i></span>
+                
+                    <p>Organized an MLH-partnered online hackathon for students at York University and Greater Toronto Area to create
+                        creative solutions.
+                    </p>
+                    <p>Hosted fireside chats with alumni in Banking and Big Tech companies to speak about breaking into their respective
+                        industries for students.    
+                    </p>
+                    <p>
+                        Organized over 150 hackers with 30 teams, raised 4000 CAD as prizes from sponsors.
+                    </p>
+                    <p>
+                        Maintained communications with future organizing teams to provide advice and legacy support.
+                    </p>
+  
+
+                <span class = "degree"><b>Google Developer Student Club - President | York University </b></span>
+                <br><span class = "dates"><i>Jun 2021 - Jun 2022</i></span>
+                
+                    <p>Led a student run university club at York University for students to engage and collaborate with each other using
+                        Google Cloud technologies and other frameworks of interest.
+                    </p>
+                    <p>Partnered with Google Developer Experts in Canada to host beginner workshops in machine learning methods
+                        using TensorFlow with simple data sets.   
+                    </p>
+                    <p>
+                        Organized over 150 hackers with 30 teams, raised 4000 CAD as prizes from sponsors.
+                    </p>
+                    <p>
+                        Partnered with other computer science student clubs in York University to deliver guided workshops in various
+                        frameworks and languages.                    
+                    </p>    
+            </div>
+
+        </div>
+        <h2>PROJECTS</h2>
+        <hr class="section-divider">
+        <div class = "section-entry">
+            <div class = "section-subtitle">
+                <span class = "degree"><b>Kaggle - Exploratory Data Analysis of Credit Card Fraud Detection and kNN classifier with PRAUC </b> | <i>Python, sklearn</i> <a href="https://github.com/jp0502/Dota-2-Match-Predictor-using-Tensorflow-and-OpenDota-API" target="_blank" title="View on GitHub">
+                    <img src="github-mark.png" alt="GitHub" class="github-icon"/>
+                    </a>
+                </span>
+                <p>
+                    Developed a kNN classifier in Python with sklearn library to perform predictions on whether a credit card usage is
+                    fraudulent on a Kaggle dataset (n=284,807)
+                    
+                    </p>
+                    <p>Normalized and trained the kNN classifier algorithm via Euclidean
+                        distance and with neighbours of k = 11.</p>
+                <p>
+                    Performed Precision-Recall Area Under Curve method to determine performance of the kNN algorithm to yield
+                    0.93 AUC accuracy rate.
+                </p>
+            </div>
+        </div>
+
+        <div class = "section-entry">
+            <div class = "section-subtitle">
+                <span class = "degree"><b>Dota 2 Match Predictor with Tensorflow and OpenDota API </b> | <i>Python </i>     <a href="https://github.com/jp0502/Credit-Card-Fraud-Detection-with-knn-classifier-and-ROC/blob/main/Credit_Card_Fraud_Detection_with_knn_classifier_and_ROC.ipynb" target="_blank" title="View on GitHub">
+                    <img src="github-mark.png" alt="GitHub" class="github-icon"/>
+                    </a>
+
+                </span>
+                <p>Implemented a neural net algorithm with Tensorflow to predict the winning team in a ranked public game of Dota
+                    2 from players’ choices of heroes.</p>
+                <p>Parsed JSON data in Python from OpenDota API to perform ETL on parsed data (n=10,000) into a pandas</p>
+                dataframe to train the neural network model, for a 55% prediction rate.
+                <p>Future works include models with higher prediction rates based on larger parsed data sets with implementation of
+                Python back-end with Flask for users to predict their own match predictions. </p>
+            </div>
+        </div>
+
+        <div class = "section-entry">
+            <div class = "section-subtitle"> 
+                <span class = "degree"><b>High Dimensional Data Visualization via t-SNE with Early Exaggeration </b> | <i>Python, R</i> <a href="https://github.com/jp0502/High-Dimensional-Data-Visualisation-via-Discrete-Dynamical-Systems" target="_blank" title="View on GitHub">
+                    <img src="github-mark.png" alt="GitHub" class="github-icon"/>
+                    </a>
+                </span>
+                <p>
+                    Implemented t-SNE with Early Exaggeration Factor developed by Laurens van der Maaten and Geoffrey Hinton in
+                    Python and R.    
+                </p>
+                <p>
+                    Used MNIST dataset and sklearn library to implement a t-SNE algorithm with varying early exaggeration factors
+                    to showcase efficacy of the exaggeration factor with Matplotlib library.
+                </p>
+                <p>
+                    Implemented the same algorithm on Iris dataset in R using Rtsne library to project 3D data into 2D for convenient
+                    data visualization
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

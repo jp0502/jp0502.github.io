@@ -1,0 +1,25 @@
+header, .about-me,.education, .work-exp {
+    text-align: center;
+}
+
+.bolded {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.contact-info {
+}
+
+.education h2, .work-exp h2 {
+    font-weight: bold;
+}
+
+.section-divider {
+}
+
+.github-icon {
+    width: 24px; 
+    height: 24px; 
+    vertical-align: middle; 
+    margin-left: 10px; 
+}
