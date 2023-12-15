@@ -1,5 +1,43 @@
-header, .about-me,.education, .work-exp {
+
+
+ /* Projects*/
+.projects {
+    padding: 20px;
     text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    padding: 0 20px; 
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left; 
+}
+
+.project h3 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.project p {
+    margin-bottom: 10px; 
+}
+
+@media (max-width: 800px) {
+    .project-grid {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr; 
+    }
 }
 
 .bolded {
@@ -10,8 +48,11 @@ header, .about-me,.education, .work-exp {
 .contact-info {
 }
 
-.education h2, .work-exp h2 {
+.education h2, .work-exp h2, .about-me, header, .contact-info, .education-entry, .program-info, .section-entry {
     font-weight: bold;
+    text-align: center;
+
+
 }
 
 .section-divider {
