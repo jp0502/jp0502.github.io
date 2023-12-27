@@ -71,8 +71,8 @@ body {background-color: #faf0e6;}
 .github-icon {
     width: 24px; 
     height: 24px; 
-    vertical-align: middle; 
-    margin-left: 10px; 
+    margin: auto;
+    display: block;
 }
 
 .centered-list {
@@ -84,7 +84,10 @@ body {background-color: #faf0e6;}
     padding: 0;
 }
 
-img {
+
+.thumbnails {
+    margin: auto;
+    display: block;
     width: 200px;
     height: 200px;
   }
