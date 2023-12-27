@@ -1,8 +1,7 @@
 
+
 body {background-color: #faf0e6;}
 
-
- /* Projects*/
 .projects {
     padding: 20px;
     text-align: center;
@@ -19,16 +18,23 @@ body {background-color: #faf0e6;}
     border: 1px solid #ccc;
     padding: 10px;
     text-align: left; 
+
+    padding: 15px;
+    transition: box-shadow 0.3s; 
 }
 
+.project:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+}
 .project h3 {
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 0; 
 }
 
 .project p {
     margin-bottom: 10px; 
 }
+
 
 @media (max-width: 800px) {
     .project-grid {
@@ -58,6 +64,8 @@ body {background-color: #faf0e6;}
 }
 
 .section-divider {
+    border-color: #ddd;
+    margin: 20px 0; 
 }
 
 .github-icon {
@@ -65,4 +73,13 @@ body {background-color: #faf0e6;}
     height: 24px; 
     vertical-align: middle; 
     margin-left: 10px; 
+}
+
+.centered-list {
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+
+    list-style-type: none; 
+    padding: 0;
 }
