@@ -85,6 +85,6 @@ body {background-color: #faf0e6;}
 }
 
 img {
-  width: 100%;
-  height: auto;
-}
+    width: 200px;
+    height: 200px;
+  }
