@@ -68,12 +68,38 @@ body {background-color: #faf0e6;}
     margin: 20px 0; 
 }
 
+.degree{
+    font-size: 30px;
+
+}
+
+.positions {
+    font-size: 30px;
+}
+
+.project-name{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    display: block; 
+    margin: 0 auto;
+}
 .github-icon {
     width: 24px; 
     height: 24px; 
     margin: auto;
     display: block;
 }
+
+.language-icon{
+    width: 24px; 
+    height: 24px; 
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 .centered-list {
     width: fit-content; 
@@ -91,3 +117,7 @@ body {background-color: #faf0e6;}
     width: 200px;
     height: 200px;
   }
+
+.centered-content {
+    text-align: center; 
+}
